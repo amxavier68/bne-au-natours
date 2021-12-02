@@ -1,8 +1,9 @@
 {
+  "main": "App.js",
   "scripts": {
     "dev": "webpack serve --open",
     "build": "webpack",
-    "start": "webpack",
+    "start": "webpack --watch",
     "test": "jest --verbose --colors --watchAll"
   },
   "devDependencies": {
